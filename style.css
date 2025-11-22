@@ -113,33 +113,39 @@ main {
 @media (max-width: 600px) {
 
     header h1 {
-        font-size: 28px;
+        font-size: 26px;
+    }
+
+    header li {
+        margin: 0 8px;
+        font-size: 14px;
     }
 
     main {
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     .slide1, .slide2, .slide3 {
         width: 90%;
-        height: 65vh;
-        top: 100px;
-        margin-bottom: 20px;
+        height: 90vh;
+        top: 60px;
+        margin-bottom: 10px;
         padding: 15px;
-        border-radius: 15px;
-        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.30);
+        border-radius: 16px;
+
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
     }
 
     .slide-content img {
         width: 100%;
         height: auto;
-        border-radius: 15px;
+        border-radius: 16px;
     }
 
     .slide-content audio {
         width: 100%;
-        border-radius: 10px;
         margin-top: 10px;
+        border-radius: 10px;
     }
 
     .slide3 {
