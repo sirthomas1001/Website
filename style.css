@@ -116,19 +116,44 @@ audio::-webkit-media-controls-panel {
 }
 
 @media (max-width: 600px) {
+
     header h1 {
-        font-size: 32px;
+        font-size: 28px;
+    }
+
+    header li {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    main {
+        margin-top: 100px;
     }
 
     .slide1, .slide2, .slide3 {
+        top: 120px;
         width: 90%;
-        padding: 15px;
-        top: 140px;
         height: auto;
+        padding: 15px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
     }
 
     .slide-content img {
         width: 100%;
         height: auto;
+        border-radius: 15px;
+    }
+
+    .slide-content audio {
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+    .slide3 {
+        margin-bottom: 120px;
     }
 }
