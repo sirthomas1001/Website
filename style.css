@@ -104,11 +104,6 @@ main {
     background-color: #F2F2F2;
 }
 
-audio::-webkit-media-controls-panel {
-    background-color: #F2F2F2;
-    border-radius: 20px;
-}
-
 .footer {
     width: 100%;
     text-align: center;
@@ -121,24 +116,18 @@ audio::-webkit-media-controls-panel {
         font-size: 28px;
     }
 
-    header li {
-        margin: 0 10px;
-        font-size: 14px;
-    }
-
     main {
         margin-top: 100px;
     }
 
     .slide1, .slide2, .slide3 {
-        top: 120px;
         width: 90%;
-        height: auto;
+        height: 65vh;
+        top: 100px;
+        margin-bottom: 20px;
         padding: 15px;
-        margin-bottom: 40px;
         border-radius: 15px;
-
-        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.30);
     }
 
     .slide-content img {
@@ -149,7 +138,7 @@ audio::-webkit-media-controls-panel {
 
     .slide-content audio {
         width: 100%;
-        border-radius: 15px;
+        border-radius: 10px;
         margin-top: 10px;
     }
 
