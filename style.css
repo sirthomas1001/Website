@@ -114,3 +114,21 @@ audio::-webkit-media-controls-panel {
     text-align: center;
     padding: 10px 0;
 }
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    .slide1, .slide2, .slide3 {
+        width: 90%;
+        padding: 15px;
+        top: 140px;
+        height: auto;
+    }
+
+    .slide-content img {
+        width: 100%;
+        height: auto;
+    }
+}
